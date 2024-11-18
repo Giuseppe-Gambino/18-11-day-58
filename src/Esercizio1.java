@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Esercizio1 {
     static Scanner scanner = new Scanner(System.in);
 
+    // salve
     public void resMultiplication() {
 
         System.out.println("Hello world!");
@@ -30,7 +31,7 @@ public class Esercizio1 {
         System.out.println(concat);
     }
 
-    public void arrayString(){
+    public void arrayString() {
 
         String[] stringaArray = new String[5];
         System.out.println("inserisci elemento dell'array");
@@ -48,16 +49,16 @@ public class Esercizio1 {
         String stringa = scanner.next();
 
         String[] newStringArr = new String[6];
-                newStringArr[0] = stringaArray[0];
-                newStringArr[1] = stringaArray[1];
-                newStringArr[2] = stringa;
-                newStringArr[3] = stringaArray[2];
-                newStringArr[4] = stringaArray[3];
-                newStringArr[5] = stringaArray[4];
+        newStringArr[0] = stringaArray[0];
+        newStringArr[1] = stringaArray[1];
+        newStringArr[2] = stringa;
+        newStringArr[3] = stringaArray[2];
+        newStringArr[4] = stringaArray[3];
+        newStringArr[5] = stringaArray[4];
 
 
         for (String element : newStringArr) {
-                System.out.println(element);
+            System.out.println(element);
         }
     }
 
